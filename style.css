@@ -908,6 +908,22 @@ footer p {
     margin-top: 10px;
     width: 100%;
   }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .social-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -923,6 +939,33 @@ footer p {
   .services-container h2 {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+  }
+
+  #contact {
+    padding: 60px 0;
+  }
+
+  .contact-info h3 {
+    font-size: 1.5rem;
+  }
+
+  .contact-info p,
+  .info-details p {
+    font-size: 1rem;
+  }
+
+  .form {
+    padding: 20px;
+  }
+
+  .form .title {
+    font-size: 20px;
+  }
+
+  .form input,
+  .form textarea,
+  .form button {
+    font-size: 14px;
   }
 }
 
